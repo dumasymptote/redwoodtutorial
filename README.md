@@ -120,3 +120,7 @@ The best way to learn Redwood is by going through the comprehensive [tutorial](h
 
 - Stay updated: read [Forum announcements](https://community.redwoodjs.com/c/announcements/5), follow us on [Twitter](https://twitter.com/redwoodjs), and subscribe to the [newsletter](https://redwoodjs.com/newsletter)
 - [Learn how to contribute](https://redwoodjs.com/docs/contributing)
+
+
+## Env Secret
+You can generate a new env secret string for any environments you deploy to with *yarn rw g secret* this will output the string to the terminal so you can copy and paste it into the appropriate environment. Make sure not to check in env files to git.
